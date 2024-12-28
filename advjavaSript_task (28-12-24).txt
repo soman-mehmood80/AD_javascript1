@@ -1,0 +1,63 @@
+Task1: Secret Message Decoder
+Write a JavaScript program that processes a string entered by the user to uncover a hidden "secret message." The program should perform several steps to decode the message, with loops, conditions, and manual logic. This program should avoid any built-in string functions.
+
+Story Context:
+You have intercepted a strange message sent in a scrambled format. Your task is to write a program that decodes it step-by-step using the rules below.
+
+Rules for Decoding:
+1. Input Validation
+Prompt the user to input a scrambled message (string).
+Validate the input to ensure it is not empty. If the input is invalid (e.g., the user presses Enter without typing anything), re-prompt until a valid string is entered.
+2. Character Filtering
+Use a for loop to filter only alphabetic characters from the string. Ignore digits, spaces, and special characters during this step.
+Keep a count of all the ignored characters.
+3. Secret Message Construction
+Construct the secret message from the filtered characters:
+Characters in odd positions (1st, 3rd, 5th, etc.) are part of the secret message.
+Characters in even positions are discarded.
+4. Reverse the Message
+Manually reverse the secret message using a while loop.
+Add a unique separator (e.g., "-") between every two characters in the reversed message.
+5. Output the Decoded Message
+Display the following:
+
+The original scrambled message.
+The total number of ignored characters.
+The final secret message (reversed with separators).
+
+Task2:
+
+Create a JavaScript program that performs the following tasks without using arrays. The program should process a series of student scores one by one. Each score will be entered by the user. When the user enters a negative number, the program will stop taking inputs and proceed to process the scores.
+
+Your program must include the following:
+
+1. Input:
+Use a while loop to repeatedly prompt the user to input student scores.
+Ensure scores are validated (non-negative integers only). Display an error message and re-prompt if the input is invalid.
+The loop terminates when the user enters a negative number.
+2. Processing:
+Use variables to keep track of:
+
+The total number of scores entered.
+The total sum of all scores.
+The highest score and the lowest score.
+The count of students who scored above the average (to be calculated later).
+After all scores have been entered:
+
+Use a for loop to calculate the average score.
+Use if-else and else-if statements to classify each score into grades:
+Score >= 90: Grade A
+Score >= 80 and < 90: Grade B
+Score >= 70 and < 80: Grade C
+Score >= 60 and < 70: Grade D
+Score < 60: Grade F
+For students with Grade A, use a nested if to check for distinctions:
+Score >= 95: High Distinction
+Otherwise: Distinction
+3. Output:
+After processing all scores, display:
+The total number of scores entered.
+The highest score and the lowest score.
+The average score.
+The number of students who scored above average.
+The grade and distinction (if applicable) for each score.

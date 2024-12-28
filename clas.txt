@@ -1,0 +1,15 @@
+Logical 
+or ||
+And &&
+Not !
+
+
+Relational
+<,>,<=,>=,!=,==,===
+!==
+
+Example:
+5>=6=false
+
+Example 2:
+Name == 'ali' || name == 'Hasan'
