@@ -274,12 +274,18 @@
 //     if (i  % 2 == 0){
 //         console.log("Even Number" + i);
 //     }
+// else{
+//     console.log("Odd Number" + i);
+// }
 // }
 
 // for (let i  = 1 ; i <= 10 ; i++){
 //     if (i  % 2 == 1){
 //         console.log("Odd Number" + i);
 //     }
+// else{
+//     console.log("Even Number" + i);
+// }
 // }
 
 
@@ -292,7 +298,7 @@
 // let count = 1;
 // while(count <= 10){
 
-// console.log (count + " Hello World" );
+// console.log (count + " OR kitna ");
 
 //     count++;
 // }
